@@ -44,17 +44,17 @@ class _HomePageState extends State<HomePage> {
 
   bool _checkLose() {
     if (barrierXone < 0.2 && barrierXone > -0.2) {
-      if (birdYaxis < -0.3 || birdYaxis > 0.7) {
+      if (birdYaxis < -0.4 || birdYaxis > 0.5) {
         return true;
       }
     }
     if (barrierXtwo < 0.2 && barrierXtwo > -0.2) {
-      if (birdYaxis < -0.8 || birdYaxis > 0.4) {
+      if (birdYaxis < -0.9 || birdYaxis > 0.3) {
         return true;
       }
     }
     if (barrierXthree < 0.2 && barrierXthree > -0.2) {
-      if (birdYaxis < -0.4 || birdYaxis > 0.7) {
+      if (birdYaxis < -0.5 || birdYaxis > 0.6) {
         return true;
       }
     }
